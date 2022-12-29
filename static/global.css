@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+/* VARIABLEN CSS */
+:root {
+  --color--black: #000000;
+  --color--cyan-bluish-gray: #abb8c3;
+  --color--white: #ffffff;
+  --color--pale-pink: #f78da7;
+  --color--vivid-red: #cf2e2e;
+  --color--luminous-vivid-orange: #ff6900;
+  --color--luminous-vivid-amber: #fcb900;
+  --color--light-green-cyan: #7bdcb5;
+  --color--vivid-green-cyan: #00d084;
+  --color--pale-cyan-blue: #8ed1fc;
+  --color--vivid-cyan-blue: #0693e3;
+  --color--vivid-purple: #9b51e0;
+}
+
+/* BASIS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ALGEMENE STYLING */
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* LAYOUT */
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+.row {
+  width: 100%;
+  max-width: 1000px;
+  padding: 2em;
+}
+
+.container {
+  padding: 56px 0;
+}
