@@ -83,7 +83,7 @@
               </a>
             </div>
           </li>
-          
+
           <li class="nav__item">
             <div class="nav__text-container">
               <a href="/partnerships" class="nav__link">
@@ -183,6 +183,7 @@
 
   @media only screen and (min-width: 0px) and (max-width: 1024px) {
     .header {
+        
     }
   }
   </style>
