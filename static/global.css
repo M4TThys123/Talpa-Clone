@@ -25,6 +25,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+body{
+  background-color: var(--color--pale-cyan-blue);
+}
+
 /* ALGEMENE STYLING */
 ul {
   list-style: none;
@@ -67,3 +71,9 @@ img {
 .container {
   padding: 56px 0;
 }
+
+/* COLORS */
+h1, h2, h3, h4, h5, h6, p, a, li {
+  color: black;
+}
+
